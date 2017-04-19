@@ -1,0 +1,9 @@
+{
+    "CSIGO": {
+      "client_id": "qc2Ai8HiB3",
+      "client_secret": "2lFo8bF3Km2lkvJk2eQLbxxMathOgCdIOrDEbWWn",
+      "redirect_uri":"http://localhost:8080/oauth2callback?service=csigo",
+      "auth_uri": "http://csigo/oauth2/authorize",
+      "token_uri": "http://csigo/oauth2/token"
+    }
+}
