@@ -70,7 +70,7 @@ func main() {
 			}
 			domain = url.Hostname()
 		} else {
-			domain = fmt.Sprintf("http://%s", *cbAddr)
+			domain = fmt.Sprintf("http://%s", *hostAddr)
 		}
 
 		clientStore.Set(u.ClientID, &models.Client{
